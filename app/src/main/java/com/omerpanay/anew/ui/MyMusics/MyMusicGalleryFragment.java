@@ -149,13 +149,13 @@ public class MyMusicGalleryFragment extends Fragment {
         List<MyMusicGallery> newMusicList = new ArrayList<>();
         switch (emotion) {
             case "Mutlu":
-                newMusicList.add(new MyMusicGallery(R.drawable.eminem, "Lose Yourself", "Audio", "Eminem", R.raw.eminemloseyourself));
+                newMusicList.add(new MyMusicGallery(R.drawable.eminem, "Lose Yourself", "Audio", "Eminem", R.raw.eminemwithoutme));
                 newMusicList.add(new MyMusicGallery(R.drawable.eminem2, "Till I Collapse", "Audio", "Eminem", R.raw.colapse));
-                newMusicList.add(new MyMusicGallery(R.drawable.samiyusuf, "Allah-u Allah", "Audio", "Sami Yusuf", R.raw.samiyusufallahuallah));
+                newMusicList.add(new MyMusicGallery(R.drawable.samiyusuf, "Allah-u Allah", "Audio", "Sami Yusuf", R.raw.samiyusufAllahuAllah));
                 newMusicList.add(new MyMusicGallery(R.drawable.samiyusuf1, "Paradise", "Audio", "Sami Yusuf", R.raw.samiyusufparadise));
                 newMusicList.add(new MyMusicGallery(R.drawable.maherzain6, "Ghafuru Rahim", "Audio", "Maher Zain", R.raw.mahergafururahim));
                 newMusicList.add(new MyMusicGallery(R.drawable.maherzain2, "For the Rest of My Life", "Audio", "Maher Zain", R.raw.maherfortherest));
-                newMusicList.add(new MyMusicGallery(R.drawable.samiyusuf3, "Eigen", "Audio", "Sami Yusuf", R.raw.samiyusufeigen));
+                newMusicList.add(new MyMusicGallery(R.drawable.samiyusuf3, "Eigen", "Audio", "Sami Yusuf", R.raw.samiyusufEigen));
                 newMusicList.add(new MyMusicGallery(R.drawable.eminem, "Mocking Bird", "Audio", "Eminem", R.raw.eminemmockingbird));
                 newMusicList.add(new MyMusicGallery(R.drawable.eminem4, "Real Slim", "Audio", "Eminem", R.raw.eminemrealslim));
                 newMusicList.add(new MyMusicGallery(R.drawable.maherzain3, "Rahmetelil Alemin", "Audio", "Maher Zain", R.raw.maherrahmatelilalemin));
