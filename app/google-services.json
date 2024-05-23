@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "518842240006",
+    "project_id": "musicapp-ee910",
+    "storage_bucket": "musicapp-ee910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518842240006:android:19a3eb30fd2e3678634787",
+        "android_client_info": {
+          "package_name": "com.omerpanay.anew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMYYze_jcQP5Qn-EFa_-jLMS_25D_WoKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

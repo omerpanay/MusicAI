@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView3login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/foreground_design"
+        android:scaleType="centerCrop"
+        android:src="@drawable/artificial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textViewlogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="142dp"
+        android:fontFamily="@font/lobster"
+        android:text="My Music App"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="33sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextlogin"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:backgroundTint="#CCCCCC"
+        android:drawableLeft="@drawable/baseline_mail_24"
+        android:drawablePadding="13dp"
+        android:hint="E-mail"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2login"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="62dp"
+        android:backgroundTint="#CCCCCC"
+        android:drawableLeft="@drawable/baseline_123"
+        android:drawablePadding="13dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextlogin">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView5login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/signInLogin"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/btn_bg_design"
+        android:onClick="mainActivity"
+        android:padding="14dp"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2login"
+        app:layout_constraintWidth_percent=".5">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/textView6login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:text="Don't you have account ?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView7login"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView7login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="69dp"
+        android:onClick="register"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6login">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

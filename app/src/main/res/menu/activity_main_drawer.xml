@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_myMusicgallery"
+            android:icon="@drawable/baseline_library_music"
+            android:title="My Music Gallery" />
+        <item
+            android:id="@+id/nav_myFavoriteMusic"
+            android:icon="@drawable/baseline_favorite"
+            android:title="My Favorite Musics"/>
+        <item
+            android:id="@+id/nav_topMusic"
+            android:icon="@drawable/baseline_music_note"
+            android:title="Top Musics"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share"></item>
+        </menu>
+
+    </item>
+    <item android:title="App">
+        <menu>
+            <item android:title="About Us"
+                android:icon="@drawable/baseline_info"
+                android:id="@+id/nav_aboutUs">
+
+            </item>
+        </menu>
+
+    </item>
+</menu>
