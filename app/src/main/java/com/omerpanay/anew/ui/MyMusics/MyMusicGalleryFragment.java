@@ -167,7 +167,7 @@ public class MyMusicGalleryFragment extends Fragment {
                 newMusicList.add(new MyMusicGallery(R.drawable.samiyusuf4, "You Came To Me", "Audio", "Sami Yusuf", R.raw.samiyusufyoucametome));
                 break;
             case "Üzgün":
-                newMusicList.add(new MyMusicGallery(R.drawable.zeynepbastikjpg, "Lan", "Audio", "Zeynep Bastık", R.raw.zeyneplan));
+                newMusicList.add(new MyMusicGallery(R.drawable.zeynepbastikjpg, "Lan", "Audio", "Zeynep Bastık", R.raw.zeynepLan));
                 newMusicList.add(new MyMusicGallery(R.drawable.azerbulbul2, "İyi Değilim", "Audio", "Azer Bülbül", R.raw.azeriyidegilim));
                 newMusicList.add(new MyMusicGallery(R.drawable.eylemaktas, "Fikrimin İnce Gülü", "Audio", "Eylem Aktaş", R.raw.eylemfikrimin));
                 newMusicList.add(new MyMusicGallery(R.drawable.ferdi3, "Yüreğimde Yara", "Ferdi Tayfur", "Eminem", R.raw.ferdiyuregimdeyara));
@@ -178,7 +178,7 @@ public class MyMusicGalleryFragment extends Fragment {
 
                 newMusicList.add(new MyMusicGallery(R.drawable.kentttt, "Tut Elimi Yüreğimin", "Audio", "Kent Şarkıları", R.raw.kenttutelimi));
                 newMusicList.add(new MyMusicGallery(R.drawable.kentttt, "Hayat Devam Ediyor", "Audio", "Kent Şarkıları", R.raw.kenthayatdevam));
-                newMusicList.add(new MyMusicGallery(R.drawable.azerbulbul2, "Duygularım", "Audio", "AZ", R.raw.azerduygularim));
+                newMusicList.add(new MyMusicGallery(R.drawable.azerbulbul2, "Duygularım", "Audio", "AZ", R.raw.azerduygularım));
                 break;
         }
         return newMusicList;
